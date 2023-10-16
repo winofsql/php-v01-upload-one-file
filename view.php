@@ -16,7 +16,10 @@
 </style>
 </head>
 <body>
-<h3 class="alert alert-primary"><a href="./">ファイルをアップロード</a></h3>
+<h3 class="alert alert-primary">
+    <a href="./">ファイルをアップロード</a>
+    <a href=".." style="float:right;text-decoration:none;">📂</a>
+</h3>
 <div id="content">
     <form enctype="multipart/form-data"
         method="POST">
